@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/rigel_dechai/Desktop/Denemeler/devel -DCMAKE_INSTALL_PREFIX=/home/rigel_dechai/Desktop/Denemeler/install -G Unix Makefiles

@@ -1,0 +1,13 @@
+docker commit \
+    --author="Dr. Foo Bar" \
+    --message="My glourious build was successful
+    nihahahahaha!! ros_tutorial tarafından üretilmiştir bu catkin workspace'i" \
+    catkin_workspace \
+    ros:melodic
+
+
+      docker commit \
+          --author="saidius" \
+          --message="Ölümcül icadımda sona geldik" \
+          catkin_workspace \
+          ros:melodic

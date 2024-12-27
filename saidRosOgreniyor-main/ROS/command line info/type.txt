@@ -1,0 +1,21 @@
+You should start with typing:
+	$roscore
+		though it is not a requirement, this way is the healthiest.
+
+In other tabs of the terminal, you can run nodes by:
+	$rosrun <nodeName>
+
+When setting up ros in a docker container;
+start it by:
+	$sudo docker run --name=cartcurt --net=host -it ros:melodic
+		then when you're inside of that container, I always type:
+			#source opt ..<someFiles>../setup.bash
+			#sudo apt-get update
+		if you want to download an existing ros package in a container, rather than creating that package by yourself, just type:
+			#sudo apt-get install <packageName>
+	
+		for any other tab of the terminal connecting to that same container, don't forget to:
+			#source opt ..<someDirectories>../setup.bash
+		and then you can:	
+			#rosrun <nodeName>
+		

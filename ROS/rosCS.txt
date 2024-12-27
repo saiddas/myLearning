@@ -1,0 +1,24 @@
+HOST
+	roscore
+
+
+
+
+
+
+
+
+CONTAINER
+	sudo docker run --name=cartcurt --net=host -it ros:melodic 
+		#source opt...setup.bash
+		#sudo apt-get update
+		#sudo apt-get install ros-melodic-ros-tutorials
+	
+	sudo docker exec -it cartcurt bash
+		#source ...
+		#rosrun ... 
+		oldu.
+
+
+HOST	
+	rosrun ..

@@ -1,0 +1,26 @@
+This file is about Docker's useful commands
+More like a cheat sheet actually.
+	docker images: Shows all images
+	docker ps -a: Shows all containers
+
+	docker pull <name>:<tag> : Pulls an image
+	docker commit <name>: Commits a container to an image
+	docker push <name>: Pushes an image
+	docker build <pathOrUrl> : builds an image from that dockerfile 
+
+	docker run -it <nameOrId> bash: Runs a container from image in that same terminal and gets you in that container's terminal.
+	docker exec -it <id> bash: with this command you can enter a working container from another tab.
+
+	docker (un)pause <id>: (un)pauses that container 
+	docker start <id> : starts that container
+	docker stop <id>: stops that container
+
+	docker rm <id> : removes container
+	docker rm -f <same> : force remove
+	docker rmi <idOrName> : remove image
+
+	docker inspect <id>: Inspects that container	
+
+	there's also rename, tag, --name flag, --host flag and so on...
+
+	

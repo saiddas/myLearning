@@ -1,0 +1,15 @@
+This is a text file of an overview of ROS concepts and keywords.
+
+ROS Concepts
+
+	Nodes: The main 'workers' of a ros-based robot. They do all the job, they are like functions in a programming language. They also communicate constantly.
+	Messages: While 2 assigned nodes are communicating, they deliver and receive messages. The communication is all built upon this message swaps.
+	Topics: 2 (or more) nodes communicate, we know that. But they need to communicate through a channel which is named as topic(s).
+	Services: Like nodes, they work for a specific purpose. The difference is, a service is mostly used only once (or when required) but nodes are often working non-stop.
+	Packages: Like a directory, this structures maintain the related codes, information files and package dependencies in one place.
+		Descriptives:
+			message types: A Message's description.
+			service types: A service's description.
+			package manifests: A package's name,licenses, authors, its dependencies..etc is declared in this manifest.
+	
+	Rosmaster: The master that administrates nodes and collects/saves their data.
